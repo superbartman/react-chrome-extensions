@@ -1,5 +1,7 @@
 # Usage
 
+A simple Chrome Extensions base on React.
+
 ## Start
 
 ```js
