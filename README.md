@@ -10,7 +10,7 @@ yarn start
 pnpm start
 ```
 
-Open <http://localhost:3000> with your browser
+Open <http://localhost:3000> with your browser.
 
 ## Build Chrome Extensions
 
@@ -24,7 +24,7 @@ pnpm build
 
 ### Step 1
 
-Build Chrome Extensions
+Build Chrome Extensions.
 
 ### Step 2
 
