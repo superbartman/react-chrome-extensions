@@ -1,6 +1,6 @@
 # Usage
 
-A simple Chrome Extensions base on React.
+A simple Chrome Extensions template base on React.
 
 ## Start
 
