@@ -1,6 +1,11 @@
 const path = require('path');
 
 module.exports = {
+  devtool: 'inline-source-map',
+  entry: {
+    'index': './src/index.tsx',
+    'background': './src/background.ts'
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',

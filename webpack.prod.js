@@ -9,10 +9,6 @@ const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 module.exports = merge(common, {
   mode: 'production',
-  entry: {
-    'index': './src/index.tsx',
-  },
-  devtool: 'inline-source-map',
   plugins: [
     shouldOpenAnalyzer &&
     new BundleAnalyzerPlugin({

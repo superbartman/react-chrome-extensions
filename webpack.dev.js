@@ -5,11 +5,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = merge(common, {
   mode: 'development',
-  entry: { 'index': './src/index.tsx' },
-  devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/index.html'
+      template: 'src/index.html',
+      chunks: ['index']
     }),
   ],
   devServer: {
