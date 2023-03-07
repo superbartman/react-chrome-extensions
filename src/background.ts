@@ -1,4 +1,3 @@
-
-chrome.tabs.onActivated.addListener(function(activeInfo) {
+chrome.tabs.onActivated.addListener(function (activeInfo) {
   console.log(activeInfo);
 });

@@ -24,7 +24,5 @@
   ],
   "include": [
     "src",
-    "example",
-    "declares.d.ts",
   ]
 }
