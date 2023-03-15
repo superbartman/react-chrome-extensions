@@ -11,10 +11,10 @@ module.exports = merge(common, {
   mode: 'production',
   plugins: [
     shouldOpenAnalyzer &&
-    new BundleAnalyzerPlugin({
-      analyzerMode: 'server',
-      analyzerHost: ANALYZER_HOST,
-      analyzerPort: ANALYZER_PORT,
-    }),
+      new BundleAnalyzerPlugin({
+        analyzerMode: 'server',
+        analyzerHost: ANALYZER_HOST,
+        analyzerPort: ANALYZER_PORT,
+      }),
   ].filter(Boolean),
 });
